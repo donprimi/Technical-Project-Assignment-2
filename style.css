@@ -1,0 +1,64 @@
+#title, #desc, #result, #btn {
+    /* font-family: 'Arial Narrow Bold', sans-serif; */
+    font-family: 'Bahnschrift';
+}
+
+.label{
+    /* font-family: 'Arial Narrow Bold', sans-serif; */
+    font-family: 'Bahnschrift';
+    font-size: 14px;
+}
+
+#hei {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(220, 220, 220);
+    color: gray;
+    height: 25px;
+    width: 420px;
+    margin-bottom: 10px;
+    /* margin-top: -8px; */
+}
+
+#wei {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(220, 220, 220);
+    color: gray;
+    height: 25px;
+    width: 420px;
+    margin-bottom: 10px;
+    /* margin-top: -8px; */
+}
+
+#btn {
+    border-radius: 5px;
+    background-color: rgb(86, 43, 226);
+    color: white;
+    border-style: none;
+    height: 35px;
+    width: 120px;
+}
+
+#title, #desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 32vw;
+    margin-right: 32vw;
+    /* align-items: flex-start; */
+    /* flex-direction: column;  */
+}
+
+.bold {
+    font-family: 'Bahnschrift';
+    font-weight: bold;
+}
+
